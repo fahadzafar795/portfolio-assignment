@@ -1,3 +1,8 @@
+/*css variables*/
+:root{
+  --title--:50px;
+  --primarycolor--:lightblue;
+}
 
 #navbar {
   /* border: 2px solid black; */
@@ -49,7 +54,7 @@ button{
 #main{
  /* border:2px solid black ;*/
   width: 100%;
- /* background-color: rgb(255, 229, 233);*/
+  background-color: lightblue;
 }
 #left{
  /* border: 2px solid red;*/
@@ -81,7 +86,10 @@ button{
   float: left;
   padding: 0px 200px;
   display: inline-block;
-  
+}
+#text>button{
+  width: 50%;
+  font-size: xx-large;
 }
 #text>h1{
   font-size:70px;
@@ -92,4 +100,57 @@ button{
 }
 #navbar>Button{
   width: 60px;
+}
+#left2{
+ /* border: 2px solid green;*/
+  width:48%;
+  margin-top: 200px;
+  padding: 2px 2px;
+  
+  display: inline-block;
+  
+}
+#right2{
+ /* border: 2px solid red;*/
+  width:48%;
+  margin-top: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+#text2>h1{
+  font-size:70px;
+  text-shadow:3px 4px 3px black ;
+}
+#text2>p{
+  font-size:30px;
+}
+#left2>img{
+   width: 70%;
+  float: right;
+  padding: 0px 200px;
+  display: inline-block;
+}
+#text2>button{
+  width: 50%;
+  font-size: xx-large;
+}
+#title{
+  width: 45%;
+ /* border: 2px solid black ;*/
+  margin: 30px auto;
+  text-align: center;
+  margin-top: 80px;
+}
+#main2{
+  
+}
+button:hover{
+background-color: blue;
+}
+#title>h1{
+  font-size:var(--title--);
+  text-shadow:3px 4px 3px black ;
+}
+#title>p{
+  color: rgb(126, 125, 125);
 }
